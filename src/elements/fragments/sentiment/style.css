@@ -1,0 +1,47 @@
+#emoji-mask {
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1rem;
+    border-radius: 100rem;
+}
+
+.wave {
+    position: absolute;
+    margin-left: 10rem;
+}
+.red {
+    background: url('../../../../public/sentiments/wave-bad.svg') repeat-x;
+}
+.blue{
+    background: url('../../../../public/sentiments/wave-good.svg') repeat-x;
+}
+.animate.red{
+    animation: waveAnimationRed 2s linear !important;
+}
+.animate.blue{
+    animation: waveAnimationBlue 2s linear !important;
+}
+
+.face{
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes waveAnimationRed {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+@keyframes waveAnimationBlue {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}

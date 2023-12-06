@@ -3,6 +3,13 @@
   --mandaca-blue: #0E9AB9;
   font-family: 'Roboto Mono', monospace;
 }
+#bg-home{
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .button-icon{
   margin: 0.25rem;
   width: 1.25rem;

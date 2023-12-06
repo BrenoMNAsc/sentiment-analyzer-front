@@ -11,7 +11,10 @@
     text-overflow: ellipsis;
     text-wrap: nowrap;
 }
-
+.error-message{
+    color: var(--mandaca-red);
+    
+}
 #textfield-container {
     border: 0.3rem solid black;
     border-radius: 0.5rem;
