@@ -1,0 +1,25 @@
+input[type="file"] {
+    display: none;
+}
+
+#input-file {
+    margin-top: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.5rem;
+    width: 15rem;
+    border: 0.3rem solid black;
+    border-radius: 0.5rem;
+    display: inline-block;
+    cursor: pointer;
+}
+.sparkles-icon{
+    position: absolute;
+    width: 2rem;
+    margin-right: -8rem;
+    margin-bottom: -1rem;
+}
+
+#fileuploader-text {
+    width: 14rem;
+}

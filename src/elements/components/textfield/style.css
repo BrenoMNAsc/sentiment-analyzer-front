@@ -1,9 +1,27 @@
 #input-textfield {
-    height: 2rem;
-    outline: none;
+    position: relative;
+    z-index: 1;
     border: none;
-    border-bottom: 0.3rem solid black;
+    outline: none;
 }
+
 #input-textfield::placeholder {
     font-family: 'Roboto Mono', monospace;
+    font-size: smaller;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
+
+#textfield-container {
+    border: 0.3rem solid black;
+    border-radius: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.5rem;
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }

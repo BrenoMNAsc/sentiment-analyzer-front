@@ -29,7 +29,7 @@ export default function Button(props) {
     }
 
     return (
-        <button className={buttonClassName + ' ' + props.className}>
+        <button {...props} className={buttonClassName + ' ' + props.className}>
             {props.children}
         </button>
     );
