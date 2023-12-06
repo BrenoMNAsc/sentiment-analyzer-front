@@ -1,0 +1,9 @@
+#input-textfield {
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-bottom: 0.3rem solid black;
+}
+#input-textfield::placeholder {
+    font-family: 'Roboto Mono', monospace;
+}

@@ -1,0 +1,33 @@
+.bt {
+    height: fit-content;
+    width: fit-content;
+    background-color: #FFFF;
+    color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    border: 0.3rem solid black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.outlined-red {
+    border-color: var(--mandaca-red);
+    color: var(--mandaca-red);
+}
+
+.outlined-blue {
+    border-color: var(--mandaca-blue);
+    color: var(--mandaca-blue);
+}
+
+.fill-red {
+    border-color: var(--mandaca-red);
+    background-color: var(--mandaca-red);
+    color: white;
+}
+
+.fill-blue {
+    border-color: var(--mandaca-blue);
+    background-color: var(--mandaca-blue);
+    color: white;
+}
